@@ -7,4 +7,4 @@ Da ein Float alle Werte enthalten kann, welche ein Integer haben kann, muss nich
 # Unmögliche Casts
 Teilweise ist Casting gar nicht möglich und es muss auf eine andere Methode (beispielsweise Convert) ausgewichen werden.
  
-Gutes Video dazu: Casting VS Converting VS Parsing in C#: Which to choose? - YouTube 
+Gutes Video dazu: https://www.youtube.com/watch?v=P7OimF07kxw
