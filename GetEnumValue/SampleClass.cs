@@ -17,7 +17,7 @@ namespace EnumValues
             GetIndexByValue("are");
         }
 
-        private string GetEnumByIndex(int index)
+        private string GetValueByIndex(int index)
         {
             return Enum.GetName(typeof(TestEnum), index);
             //Second option
