@@ -12,8 +12,6 @@ namespace MultipleInheritanceInterfaces
 
     public class Chair : IDiscount, IProduct
     {
-        public string Name { get; set; }
-
         public void Sell()
         {
             Console.WriteLine("The chair was sold");
