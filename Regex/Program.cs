@@ -35,7 +35,7 @@ namespace RegexExample
                 "john.cena@yahoo.com",
                 "cristiano.ronaldo@hotmail.com"
             };
-            foreach(string email in emails)
+            foreach(string email in emails) //Returns "The email <email> belongs to: <surname> <name>"
             {
                 Console.WriteLine("The email " + email + " belongs to:");
 
