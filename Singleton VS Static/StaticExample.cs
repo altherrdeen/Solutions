@@ -9,5 +9,7 @@ namespace SingletonVSStatic
     public static class StaticExample : IExampleInterface //Implementing interface/class throws exception
     {
         private string ExampleVariable = String.Empty; //Declaring non-static variable throws exception
+
+        public bool ExampleMethod() { return true; } //Non-static method throws exception
     }
 }
