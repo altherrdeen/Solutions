@@ -6,8 +6,8 @@ using System.Threading.Tasks;
 
 namespace SingletonVSStatic
 {
-    public class IExampleInterface
+    interface IExampleInterface
     {
-        bool ExampleMethod;
+        bool ExampleMethod();
     }
 }
